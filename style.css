@@ -1,0 +1,25 @@
+.cardList{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 16px;
+}
+.card{
+    width:300px;
+    height: 400px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color:white;
+}
+.active{
+    background-color: olivedrab;
+}
+.inactive{
+    background-color: orange;
+    color:black;
+}
+.content {
+    width: 1400px;
+}
